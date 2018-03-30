@@ -5,9 +5,23 @@ body {
   background-size: 110%;
 }
 
+h4 {
+  color: white;
+  text-shadow: 1px 2px black;
+}
+
+p {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
 h2 {
   color: white;
   text-shadow: 2px 2px #2d2b2a;
+}
+
+p.resultDisplayArea {
+  color: black;
 }
 
 .jumbotron {
@@ -17,37 +31,24 @@ h2 {
   box-shadow: 5px 5px rgb(34,61,60);
 }
 
-h4, h5 {
-  color: white;
-  text-shadow: 1px 2px black;
-}
-
-p {
-  color: #2d2b2a;
-  /* text-shadow: 1px 1px black; */
-}
-
 .resultDisplayArea {
   background: rgb(116,164,103);
   opacity: .7;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.resultDisplayArea p {
-  color: black;
+  border-radius: 3px;
 }
 
 .inputSpace {
   background: url("../img/treesmall.jpeg");
 }
+
 #submitButton {
   border-radius: 5px;
 }
 #formOne {
-  background: darkgrey;
+  background: rgb(116,164,103);
   opacity: .8;
   color: #1e0b01;
+  border-radius: 3px;
 }
 
 #formOne {
