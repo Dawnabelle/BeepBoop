@@ -23,15 +23,15 @@ _Rules in order of Importance_
 * The program will take any number divisible by 3 and replace the entire number with “I’m sorry, Dave. I’m afraid I can’t do that.”
 * Program will accept a new number and begin process again.
 
-#### 0 : Beep!
-#### 1 : Boop!
-#### 2
-#### 3 : I’m sorry
-#### 4,5
-#### 6 : I’m sorry
-#### 7,8
-#### 9 : I’m sorry
-#### 10 : Boop!
+-   0 : Beep!
+-   1 : Boop!
+-   2
+-   3 : I’m sorry
+-   4,5
+-   6 : I’m sorry
+-   7,8
+-   9 : I’m sorry
+-   10 : Boop!
 
 Input: 0
 Output: Beep!

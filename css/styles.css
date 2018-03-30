@@ -8,20 +8,19 @@ body {
 h4 {
   color: white;
   text-shadow: 1px 2px black;
+  font-family: "Courier New", Courier, monospace;
 }
 
 p {
   color: white;
   text-shadow: 1px 1px black;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h2 {
   color: white;
   text-shadow: 2px 2px #2d2b2a;
-}
-
-p.resultDisplayArea {
-  color: black;
+  font-family: "Lucida Console", monospace;
 }
 
 .jumbotron {
@@ -43,14 +42,15 @@ p.resultDisplayArea {
 
 #submitButton {
   border-radius: 5px;
+  background: rgb(0,152,190);
+  font-family: "Courier New", Courier, monospace;
 }
+
 #formOne {
   background: rgb(116,164,103);
   opacity: .8;
   color: #1e0b01;
   border-radius: 3px;
-}
-
-#formOne {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
