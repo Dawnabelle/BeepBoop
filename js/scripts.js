@@ -12,7 +12,6 @@ function checkForOnes(input){
         return true;
     }
 }
-
 // turns input into string, program checks for "0", if "0" is found, statement is true, if not false
 function checkForZeroes(input){
     var result = input.toString().indexOf(0);
@@ -22,7 +21,6 @@ function checkForZeroes(input){
         return true;
     }
 }
-
 // checks if input is divisible by "3" and returns true if so, if not returns false
 function divisibleByThree(input){
     var result = input % 3;
@@ -31,6 +29,24 @@ function divisibleByThree(input){
     } else {
         return false;
     }
+}
+
+// program loops through the number, starting with zero, and adds value by 1
+function convertUserInput(input){
+   var numberArray = [];
+   console.log(input);
+   for (var i = 0; i < input; i++){
+     if (divisibleByThree(input) === true) {
+       numberArray.push("I'm sorry, Dave. I'm afraid I can't do that.");
+     } else if (checkForOnes(input) === true) {
+       numberArray.push("Boop!");
+     } else if (checkForZeroes(input) === true) {
+       numberArray.push("Beep!");
+     } else {
+       numberArray.push(i);
+     }
+  }
+  return numberArray;
 }
 
 
