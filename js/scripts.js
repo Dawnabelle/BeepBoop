@@ -53,8 +53,14 @@ function convertUserInput(input){
 $(document).ready(function(){
 
   $("#formOne").on("submit",  function(event) {
-    console.log("poop");
     event.preventDefault();
+    var inputNumber = $("#inputNumber").val();
+    var resultArray = convertUserInput(inputNumber);
+    var result = "";
+    for (var i = 0; i < resultArray.length; i++) {
+        result += resultArray[i] + " ";
+    }
+    $("#output").html(result);
   });
 
 });
