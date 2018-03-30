@@ -15,6 +15,9 @@ _A webpage game (using HTML, CSS, JavaScript and jQuery) that replaces specific 
 _Rules in order of Importance_
 
 * The counter begins at zero.
+* The program checks for the number 1.
+* The program checks for the number 0.
+* The program checks if the number is divisible by 3.
 * The program will take any number divisible by 3 and replace the entire number with “I’m sorry, Dave. I’m afraid I can’t do that.”
 * The program will take any number containing 1 and replace the entire number with “Boop!”
 * The program will take any number containing 0 and replace the entire number with “Beep!”
