@@ -1,8 +1,6 @@
+// business or back end logic
 
-// business
 
-
-// backend logic
 // turns input into string, asks program to check for 1, but not -1, if 1 is found, statement is true, if not, false
 function checkForOnes(input){
     var result = input.toString().indexOf(1);
@@ -12,6 +10,7 @@ function checkForOnes(input){
         return true;
     }
 }
+
 // turns input into string, program checks for "0", if "0" is found, statement is true, if not false
 function checkForZeroes(input){
     var result = input.toString().indexOf(0);
@@ -21,6 +20,7 @@ function checkForZeroes(input){
         return true;
     }
 }
+
 // checks if input is divisible by "3" and returns true if so, if not returns false
 function divisibleByThree(input){
     var result = input % 3;
@@ -34,7 +34,6 @@ function divisibleByThree(input){
 // program loops through the number, starting with zero, and adds value by 1
 function convertUserInput(input){
    var numberArray = [];
-   console.log(input);
    for (var i = 0; i <= input; i++){
      if (divisibleByThree(i) === true) {
        numberArray.push("I'm sorry, Dave. I'm afraid I can't do that.");
@@ -49,10 +48,13 @@ function convertUserInput(input){
   return numberArray;
 }
 
+// user or front end logic
 
-//   if (input % 3 === 0){
-//     output = "I'm sorry Dave. I'm afraid I can't do that.";
-//     console.log(output);
-//   }
-//   else if (input % 3 != 0 && input === 1 || input.charLength(i) === 1)
-// } for (var i = 0, i != %)
+$(document).ready(function(){
+
+  $("#formOne").on("submit",  function(event) {
+    console.log("poop");
+    event.preventDefault();
+  });
+
+});
