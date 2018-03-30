@@ -1,15 +1,55 @@
+body {
+  background: url("../img/grassLay.png");
+  border-radius: 6px;
+  background-position: cover;
+  background-size: 110%;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px #2d2b2a;
+}
+
 .jumbotron {
-  background: url("../img/skyBanner.jpg");
+  background: url("../img/crater.jpg");
   text-align: center;
   margin-top: 20px;
-  text-shadow: 1px 2px #f96a2c;
+  box-shadow: 5px 5px rgb(34,61,60);
+}
+
+h4, h5 {
+  color: white;
+  text-shadow: 1px 2px black;
+}
+
+p {
+  color: #2d2b2a;
+  /* text-shadow: 1px 1px black; */
 }
 
 .resultDisplayArea {
-  background: url("../img/wildFlowerLay.jpg");
+  background: rgb(116,164,103);
+  opacity: .7;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-body {
-  background-color: darkgray;
-  border-radius: 6px;
+.resultDisplayArea p {
+  color: black;
+}
+
+.inputSpace {
+  background: url("../img/treesmall.jpeg");
+}
+#submitButton {
+  border-radius: 5px;
+}
+#formOne {
+  background: darkgrey;
+  opacity: .8;
+  color: #1e0b01;
+}
+
+#formOne {
+  text-align: center;
 }
