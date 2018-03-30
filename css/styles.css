@@ -1,0 +1,15 @@
+.jumbotron {
+  background: url("../img/skyBanner.jpg");
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 1px 2px #f96a2c;
+}
+
+.resultDisplayArea {
+  background: url("../img/wildFlowerLay.jpg");
+}
+
+body {
+  background-color: darkgray;
+  border-radius: 6px;
+}
