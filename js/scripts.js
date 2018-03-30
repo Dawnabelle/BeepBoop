@@ -24,7 +24,7 @@ function checkForZeroes(input){
 // checks if input is divisible by "3" and returns true if so, if not returns false
 function divisibleByThree(input){
     var result = input % 3;
-    if (result === 0) {
+    if (result === 0 && input != 0) {
         return true;
     } else {
         return false;
@@ -35,12 +35,12 @@ function divisibleByThree(input){
 function convertUserInput(input){
    var numberArray = [];
    console.log(input);
-   for (var i = 0; i < input; i++){
-     if (divisibleByThree(input) === true) {
+   for (var i = 0; i <= input; i++){
+     if (divisibleByThree(i) === true) {
        numberArray.push("I'm sorry, Dave. I'm afraid I can't do that.");
-     } else if (checkForOnes(input) === true) {
+     } else if (checkForOnes(i) === true) {
        numberArray.push("Boop!");
-     } else if (checkForZeroes(input) === true) {
+     } else if (checkForZeroes(i) === true) {
        numberArray.push("Beep!");
      } else {
        numberArray.push(i);
