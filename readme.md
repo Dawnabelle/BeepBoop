@@ -3,21 +3,21 @@
 
 # _Beep Boop_
 
-#### Epicodus Code Review | JavaScript and jQuery
+#### Epicodus Code Review: Week 3 | Arrays &amp; Looping
 
-##### _A webpage game returning some numbers as Beep, Boop, or more text using HTML, CSS, JavaScript and jQuery, 3.30.18_
+ _An app returning some numbers as Beep, Boop, or more text using HTML, CSS, JavaScript and jQuery, 3.30.18_
 
 #### By **Dawn Mott** :sunrise_over_mountains:
-Visit [BeepBoop](https://dawnabelle.github.io/BeepBoop/) now! It's a relaxing and enjoyable way to spend a few minutes.
+_Visit [BeepBoop](https://dawnabelle.github.io/BeepBoop/) now! It's a relaxing and enjoyable way to spend a few minutes._
 <div style="text-align:center">
   <img src="./img/beep.png" alt="landing page of BeepBoop app, image of lake at night, by studio ghibli and travel oregon" width="300">
   <img src="./img/boop.png" alt="BeepBoop app with numbers and words, image of lake at night, by studio ghibli and travel oregon" width="300">
 </div>
 
-## Description
-An app (using HTML, CSS, JavaScript and jQuery) that replaces an input number with "Beep", "Boop", or a line of text, in addition to other numbers.
+### Description
+_An app (using HTML, CSS, JavaScript and jQuery) that replaces an input number with "Beep", "Boop", or a line of text, in addition to other numbers._
 
-## Specs
+### Specs
 
 * The program checks for the number 1.
   -   1 : Boop!
@@ -51,21 +51,19 @@ Input: 43
 Output is:
 Beep! Boop! 2 I’m sorry 4 5 I’m sorry 7 8 I’m sorry Boop! Boop! I’m sorry Boop! Boop! I’m sorry Boop! Boop! I’m sorry Boop! Beep! I’m sorry 22 23 I’m sorry 25 26 I’m sorry 28 29 I’m sorry Boop! 32 I’m sorry 34 35 I’m sorry 37 38 I’m sorry Beep! Boop! I’m sorry 43
 
-## Setup/Installation Requirements
+### Setup/Installation Requirements
 
-Clone or download this project.
+_Clone or download this project. Does not require a server or setting up a database._
 
-Does not require a server or setting up a database.
-
-## Known Bugs
+### Known Bugs
 
 _There are no known :bug: at this time, this is a work in progress_
 
-## Support and contact details
+### Support and contact details
 
 _Happily awaiting a chat,_ @dawnrparty _on_ ![alt text][1.1]
 
-## Technologies Used
+### Technologies Used
 
 _HTML, CSS, Bootstrap, JavaScript, jQuery_
 
