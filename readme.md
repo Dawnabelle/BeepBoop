@@ -1,15 +1,21 @@
-# _Beep Boop Game_
+<!-- Twitter icon from https://github.com/carlsednaoui/gitsocial -->
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
 
-#### _A webpage game returning some numbers as Beep, Boop, or more text using HTML, CSS, JavaScript and jQuery, 3.30.18_
+# _Beep Boop_
 
-#### By _**Dawn Mott**_
+#### Epicodus Code Review | JavaScript and jQuery
 
-## GitHub Pages Link
-[This is a link to the GitHub Page for this respository](https://dawnabelle.github.io/BeepBoop/)
+##### _A webpage game returning some numbers as Beep, Boop, or more text using HTML, CSS, JavaScript and jQuery, 3.30.18_
+
+#### By **Dawn Mott** :sunrise_over_mountains:
+Visit [BeepBoop](https://dawnabelle.github.io/BeepBoop/) now! It's a relaxing and enjoyable way to spend a few minutes.
+<div style="text-align:center">
+  <img src="./img/beep.png" alt="landing page of BeepBoop app, image of lake at night, by studio ghibli and travel oregon" width="300">
+  <img src="./img/boop.png" alt="BeepBoop app with numbers and words, image of lake at night, by studio ghibli and travel oregon" width="300">
+</div>
 
 ## Description
-
-_A webpage game (using HTML, CSS, JavaScript and jQuery) that replaces specific numbers with "Beep", "Boop", or a line of text, in addition to other numbers._
+An app (using HTML, CSS, JavaScript and jQuery) that replaces an input number with "Beep", "Boop", or a line of text, in addition to other numbers.
 
 ## Specs
 
@@ -47,17 +53,17 @@ Beep! Boop! 2 I’m sorry 4 5 I’m sorry 7 8 I’m sorry Boop! Boop! I’m sorr
 
 ## Setup/Installation Requirements
 
-* _Use the link above and clone or download this project._
+Clone or download this project.
 
-_Does not require a server or setting up a database._
+Does not require a server or setting up a database.
 
 ## Known Bugs
 
-_No known bugs or issues_
+_There are no known :bug: at this time, this is a work in progress_
 
 ## Support and contact details
 
-_This is a work in progress. I am happily awaiting comments at dawnrparty@gmail.com._
+_Happily awaiting a chat,_ @dawnrparty _on_ ![alt text][1.1]
 
 ## Technologies Used
 
