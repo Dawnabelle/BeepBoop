@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>BeepBoop: A simple game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2 id="header">BeepBoop</h2>
+        <h4>a simple game</h4>
+        <p><em>watch in wonder<br>as numbers containing 1 arrive as <strong>beeps</strong><br>numbers containing 0 arrive as <strong>boops</strong> and a<br> <strong>SPECIAL SURPRISE</strong><br>will appear with numbers divisible by 3</em></p>
+      </div>
+      <form id="formOne">
+        <label for="inputNumber"><strong>Input a Number</strong></label>
+        <input id="inputNumber" class="inputSpace" type="text">
+        <button id="submitButton" type="submit" name="button"><strong>Let's Play!</strong></button>
+      </form>
+      <div class="resultDisplayArea">
+          <h3></h3>
+          <p id="output"></p>
+      </div>
+    </div>
+  </body>
+</html>

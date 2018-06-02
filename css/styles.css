@@ -1,0 +1,57 @@
+body {
+  background: url("../img/grassLay.png");
+  border-radius: 6px;
+  background-position: cover;
+  background-size: 110%;
+}
+
+h4 {
+  color: white;
+  text-shadow: 1px 2px black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px #2d2b2a;
+  font-family: "Lucida Console", monospace;
+}
+
+.jumbotron {
+  background: url("../img/crater.jpg");
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 5px 5px rgb(34,61,60);
+}
+
+.resultDisplayArea {
+  background: rgb(116,164,103);
+  opacity: .7;
+  border-radius: 3px;
+}
+
+.inputSpace {
+  background: url("../img/treesmall.jpeg");
+}
+
+#submitButton {
+  border-radius: 5px;
+  background: rgb(0,152,190);
+  font-family: "Courier New", Courier, monospace;
+}
+
+#formOne {
+  background: rgb(116,164,103);
+  opacity: .8;
+  color: #1e0b01;
+  border-radius: 3px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+}
